@@ -1,0 +1,11 @@
+[Protocol]
+exec=1up-qt '%u'
+protocol=1up
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

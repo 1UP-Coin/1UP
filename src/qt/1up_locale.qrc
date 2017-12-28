@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/1up_bg.qm</file>
+        <file alias="ca">locale/1up_ca.qm</file>
+        <file alias="cs">locale/1up_cs.qm</file>
+        <file alias="da">locale/1up_da.qm</file>
+        <file alias="de">locale/1up_de.qm</file>
+        <file alias="en">locale/1up_en.qm</file>
+        <file alias="en_US">locale/1up_en_US.qm</file>
+        <file alias="es">locale/1up_es.qm</file>
+        <file alias="fi">locale/1up_fi.qm</file>
+        <file alias="fr_FR">locale/1up_fr_FR.qm</file>
+        <file alias="it">locale/1up_it.qm</file>
+        <file alias="ja">locale/1up_ja.qm</file>
+        <file alias="ko_KR">locale/1up_ko_KR.qm</file>
+        <file alias="nl">locale/1up_nl.qm</file>
+        <file alias="pl">locale/1up_pl.qm</file>
+        <file alias="pt">locale/1up_pt.qm</file>
+        <file alias="pt_BR">locale/1up_pt_BR.qm</file>
+        <file alias="ro_RO">locale/1up_ro_RO.qm</file>
+        <file alias="ru">locale/1up_ru.qm</file>
+        <file alias="sk">locale/1up_sk.qm</file>
+        <file alias="sv">locale/1up_sv.qm</file>
+        <file alias="uk">locale/1up_uk.qm</file>
+        <file alias="zh_CN">locale/1up_zh_CN.qm</file>
+        <file alias="zh_TW">locale/1up_zh_TW.qm</file>
+    </qresource>
+</RCC>

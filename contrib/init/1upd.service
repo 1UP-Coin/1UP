@@ -1,0 +1,26 @@
+[Unit]
+Description=1UP's distributed currency daemon
+After=network.target
+
+[Service]
+User=1up
+Group=1up
+
+Type=forking
+PIDFile=/var/lib/1upd/1upd.pid
+
+ExecStart=/usr/bin/1upd -daemon -pid=/var/lib/1upd/1upd.pid \
+          -conf=/etc/1up/1up.conf -datadir=/var/lib/1upd
+
+ExecStop=-/usr/bin/1up-cli -conf=/etc/1up/1up.conf \
+         -datadir=/var/lib/1upd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
