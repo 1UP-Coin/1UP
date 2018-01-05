@@ -17,7 +17,7 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "1UP"
-            VALUE "FileDescription",    "1upd (OSS daemon/client for Piex)"
+            VALUE "FileDescription",    "1upd (OSS daemon/client for 1UP)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "1upd"
             VALUE "LegalCopyright",     COPYRIGHT_STR

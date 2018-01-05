@@ -239,8 +239,8 @@
         <translation>Encriptar com &amp;BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Piex Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Digite um endereço Piex que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
+        <source>Enter a 1UP Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Digite um endereço 1UP que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
     </message>
     <message>
         <source>Address:</source>

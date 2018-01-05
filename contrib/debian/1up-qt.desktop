@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Piex
-Comment=Piex P2P Cryptocurrency
-Comment[fr]=Piex, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Piex, eşten eşe kriptografik sanal para birimi
+Name=1UP
+Comment=1UP P2P Cryptocurrency
+Comment[fr]=1UP, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=1UP, eşten eşe kriptografik sanal para birimi
 Exec=1up-qt %u
 Terminal=false
 Type=Application

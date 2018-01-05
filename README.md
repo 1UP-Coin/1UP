@@ -60,7 +60,7 @@ Block 1000 to 172000:
 48/12 When Master nodes have dominance over network.**
 
 
-*50 Piex to Masternodes that win block, 10 Piex to Wallet Stakers that win block.
+*50 1UP to Masternodes that win block, 10 1UP to Wallet Stakers that win block.
 
-**48 Piex to Wallet Staker that win block, 12 Piex to Masternodes that win block.
+**48 1UP to Wallet Staker that win block, 12 1UP to Masternodes that win block.
 

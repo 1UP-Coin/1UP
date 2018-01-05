@@ -46,7 +46,7 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Piex Core 1up-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("1UP Core 1up-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
                                "  1up-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded 1up transaction") + "\n" +
                                "  1up-tx [options] -create [commands]   " + _("Create hex-encoded 1up transaction") + "\n" +
