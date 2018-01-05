@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Piex"
-            VALUE "FileDescription",    "Piex-cli (OSS RPC client for Piex)"
+            VALUE "CompanyName",        "1UP"
+            VALUE "FileDescription",    "1UP-cli (OSS RPC client for 1UP)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "1up-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "1up-cli.exe"
-            VALUE "ProductName",        "Piex-cli"
+            VALUE "ProductName",        "1UP-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

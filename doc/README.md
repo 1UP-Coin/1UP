@@ -41,7 +41,7 @@ The following are developer notes on how to build 1UP on your native platform. T
 
 Development
 ---------------------
-The Piex repo's [root README](https://github.com/1UP-Project/1UP/blob/master/README.md) contains relevant information on the development process and automated testing.
+The 1UP repo's [root README](https://github.com/1UP-Project/1UP/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

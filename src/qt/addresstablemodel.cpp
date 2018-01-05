@@ -305,7 +305,7 @@ void AddressTableModel::updateEntry(const QString& address,
     const QString& purpose,
     int status)
 {
-    // Update address book model from Piex core
+    // Update address book model from 1UP core
     priv->updateEntry(address, label, isMine, purpose, status);
 }
 

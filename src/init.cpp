@@ -1570,9 +1570,9 @@ bool AppInit2(boost::thread_group& threadGroup)
         nObfuscationRounds = 99999;
     }
 
-    nAnonymizePiexAmount = GetArg("-anonymize1upamount", 0);
-    if (nAnonymizePiexAmount > 999999) nAnonymizePiexAmount = 999999;
-    if (nAnonymizePiexAmount < 2) nAnonymizePiexAmount = 2;
+    nAnonymize1UPAmount = GetArg("-anonymize1upamount", 0);
+    if (nAnonymize1UPAmount > 999999) nAnonymize1UPAmount = 999999;
+    if (nAnonymize1UPAmount < 2) nAnonymize1UPAmount = 2;
 
     fEnableSwiftTX = GetBoolArg("-enableswifttx", fEnableSwiftTX);
     nSwiftTXDepth = GetArg("-swifttxdepth", nSwiftTXDepth);
@@ -1587,7 +1587,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     LogPrintf("fLiteMode %d\n", fLiteMode);
     LogPrintf("nSwiftTXDepth %d\n", nSwiftTXDepth);
     LogPrintf("Obfuscation rounds %d\n", nObfuscationRounds);
-    LogPrintf("Anonymize 1UP Amount %d\n", nAnonymizePiexAmount);
+    LogPrintf("Anonymize 1UP Amount %d\n", nAnonymize1UPAmount);
     LogPrintf("Budget Mode %s\n", strBudgetMode.c_str());
 
     /* Denominations

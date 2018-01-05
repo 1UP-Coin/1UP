@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.1up.Piex-Qt";
+        return @"io.1up.1UP-Qt";
     } else {
         return [self __bundleIdentifier];
     }

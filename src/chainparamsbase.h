@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between 1up-cli and 1upd)
- * of a given instance of the Piex system.
+ * of a given instance of the 1UP system.
  */
 class CBaseChainParams
 {
