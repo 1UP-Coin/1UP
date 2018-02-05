@@ -10,7 +10,7 @@
   technology used to secure the network and provide the above features, each Masternode is secured
   with collateral of 285 1UP coins
 
-More information at [1up.io](http://www.1up.io)
+More information at [1upcoin.co](http://www.1upcoin.co)
 
 ### Coin Specs
 <table>
