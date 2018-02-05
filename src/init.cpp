@@ -1514,7 +1514,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     if (fMasterNode) {
 
     if (SoftSetBoolArg("-listen", true))
-            LogPrintf("This is a masternode. Enabling listen automatically")
+            LogPrintf("This is a masternode. Enabling listen automatically\n");
 
     LogPrintf("IS OBFUSCATION MASTER NODE\n");
         strMasterNodeAddr = GetArg("-masternodeaddr", "");
