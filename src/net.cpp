@@ -1560,6 +1560,7 @@ void static Discover(boost::thread_group& threadGroup)
 
 void StartNode(boost::thread_group& threadGroup)
 {
+
     uiInterface.InitMessage(_("Loading addresses..."));
     // Load addresses for peers.dat
     int64_t nStart = GetTimeMillis();
@@ -1586,6 +1587,7 @@ void StartNode(boost::thread_group& threadGroup)
     //
     // Start threads
     //
+
 
     if (!GetBoolArg("-dnsseed", true))
         LogPrintf("DNS seeding disabled\n");

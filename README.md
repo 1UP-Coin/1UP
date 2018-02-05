@@ -8,25 +8,25 @@
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _FastSend_.
 - Decentralized blockchain voting providing for consensus based advancement of the current Masternode
   technology used to secure the network and provide the above features, each Masternode is secured
-  with collateral of 25K 1UP
+  with collateral of 285 1UP coins
 
 More information at [1up.io](http://www.1up.io)
 
 ### Coin Specs
 <table>
-<tr><td>Ticker Symbol</td><td>PieX</td></tr>
+<tr><td>Ticker Symbol</td><td>oneup</td></tr>
 <tr><td>Algorithm</td><td>Quark</td></tr>
 <tr><td>Type</td><td>PoW - PoS Hybrid*</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoS)</td><td>94.5Mil 1UP</td></tr>
-<tr><td>Premine/Initial Supply</td><td>78Mil 1UP*</td></tr>
-<tr><td>PieX Created Per block</td><td>60 1UP*</td></tr>
+<tr><td>Max Coin Supply (PoS)</td><td>295K 1UP in 12 years</td></tr>
+<tr><td>Premine/Initial Supply</td><td>155K 1UP*</td></tr>
+<tr><td>1UP Created Per block</td><td>0.1 1UP*</td></tr>
 </table>
 
 *First 1000 Blocks PoW. 1001 - Infinite Blocks PoS only.
 
-**78Mil PieX initial coins Premined to Swap over prior lup Block Chain.
+**155K 1UP initial coins Premined to Swap over prior lup Block Chain.
 
 ### PoS/PoW Block Details
 <table>
@@ -36,19 +36,17 @@ More information at [1up.io](http://www.1up.io)
 
 ### Staking Methods
 <table>
-<tr><td>Masternodes</td><td>Yes - 25k PieX Required</td></tr>
-<tr><td>Wallet Staking</td><td>Yes - 1 to infinite PieX</td></tr>
+<tr><td>Masternodes</td><td>Yes - 285 1UP coins required</td></tr>
+<tr><td>Wallet Staking</td><td>Yes - 1 to infinite </td></tr>
 </table>
 
 ### Staking Reward Details
 <table>
-<tr><td>PieX Produced</td><td>60 PieX Per Block</td></tr>
-<tr><td>Amount Designated for Rewards</td><td>100% of PieX produced goes to Staking Rewards</td></tr>
+<tr><td>1UP Produced</td><td>0.1 1UP Per Block</td></tr>
+<tr><td>Amount Designated for Rewards</td><td>100% of produced 1UP</td></tr>
 <tr><td>Rewards Algorithm</td><td>Teeter Totter Based Targeting System</td></tr>
 <tr><td>Amount of Rewards Per Block</td><td>2 Rewards, 1 for Masternodes, 1 for Wallet Staking</td></tr>
 <tr><td>Coin Maturity to Stake</td><td>150 Blocks</td></tr>
-
-
 </table>
 
 ### Rewards Amounts
