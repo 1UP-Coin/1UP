@@ -1722,17 +1722,17 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         ret = blockValue / 5;
     } else if (nHeight < 86400 && nHeight > 43200) {
         ret = blockValue / (100 / 30);
-    } else if (nHeight < (Params().NetworkID() == CBaseChainParams::TESTNET ? 145000 : 151200) && nHeight >= 86400) {
-        ret = 50 * COIN;
+    ///} else if (nHeight < (Params().NetworkID() == CBaseChainParams::TESTNET ? 145000 : 151200) && nHeight >= 86400) {
+        ///ret = 50 * COIN;
     } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 151200) {
         ret = blockValue / 2;
     } else if (nHeight > Params().LAST_POW_BLOCK()) {
         int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
-        int64_t mNodeCoins = mnodeman.size() * 25000 * COIN;
+        int64_t mNodeCoins = mnodeman.size() * 285 * COIN;
 
         //if a mn count is inserted into the function we are looking for a specific result for a masternode count
         if(nMasternodeCount)
-            mNodeCoins = nMasternodeCount * 25000 * COIN;
+            mNodeCoins = nMasternodeCount * 285 * COIN;
 
         // Use this log to compare the masternode count for different clients
         LogPrintf("Adjusting seesaw at height %d with %d masternodes (without drift: %d) at %ld\n", nHeight, nMasternodeCount, nMasternodeCount - Params().MasternodeCountDrift(), GetTime());
